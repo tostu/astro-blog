@@ -23,7 +23,7 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/blog",
+        path: "src/content/blog",
         fields: [
           {
             type: "string",
@@ -62,9 +62,3 @@ export default defineConfig({
     ],
   },
 });
-
-
-title: "First post"
-description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 08 2022"
-heroImage: "/placeholder-hero.jpg"
